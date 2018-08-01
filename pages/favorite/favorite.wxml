@@ -1,0 +1,48 @@
+<!--pages/favorite/favorite.wxml-->
+<view class='container'>
+  <view class='favorite'>
+    <rich-text nodes="{{nodes}}">
+    </rich-text>
+  </view>
+  <view class='content'>
+    <view class='program'>
+      <text>一：编程</text>
+      <image src="http://pcq93ptij.bkt.clouddn.com/IT1.jpg" bindtap="navigateToProgram"></image> 
+      <text>“优秀的判断力来自经验，但经验来自于错误的判断。”</text>
+      <text>——Fred Brooks</text>
+    </view>  
+    <view class='travel'>
+      <text> 二：旅游 </text>
+      <image src="http://pcq93ptij.bkt.clouddn.com/travel3.jpg" bindtap="navigateToTravel"></image> 
+      <text>“身体和灵魂，终有一个要在路上”</text>
+      <text>——《罗马假日》</text>
+    </view>
+    <view class='dancing'>
+      <text> 三：跳舞 </text>
+      <image src="http://pcq93ptij.bkt.clouddn.com/dancing.jpg" bindtap="navigateToDancing"></image> 
+      <text>我很喜欢的一句话：“舞蹈就如我们生活中的事物，不是发展下去就是消失，它不能保持现状”</text>
+    </view>
+    <view class='photo'>
+      <text> 四：摄影 </text>
+      <image src="http://pcq93ptij.bkt.clouddn.com/photo1.jpg" bindtap="navigateToPhoto"></image> 
+      <text>“拍你真正喜欢的，这种激情通常会从作品中表现出来”</text>
+      <text>——皮特•特纳</text>
+    </view>
+    <view class='article'>
+      <text> 五：写作</text>
+      <image src="http://pcq93ptij.bkt.clouddn.com/article1.jpg" bindtap="navigateToArticle"></image> 
+      <text>“人不是因为担心死而从事写作，而是担心死后没留下什么痕迹”</text>
+      <text>——斯特凡•赫尔姆林</text>
+    </view>   
+    <view class='dog'>
+      <text> 六：额，如果可以，请允许我有这么个爱好：养狗</text>
+      <image src="http://pcq93ptij.bkt.clouddn.com/dog1.jpg" bindtap="navigateToDog"></image> 
+      <text>“狗儿引领我们进入一个更慈爱，更温柔的世界”</text>
+      <text>——美国-哈妮</text>
+    </view>  
+   </view>
+   <view class="footer">
+    <import src="../public/public.wxml"/>
+    <template is="footer"/>
+   </view>
+</view>

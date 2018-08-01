@@ -1,0 +1,31 @@
+<!--pages/dancing/dancing.wxml-->
+<view class='container'>
+  <view class='title'>
+    <rich-text nodes="{{nodes}}">
+    </rich-text>
+  </view>
+  <view class='dancing'>
+    <image src='http://pcq93ptij.bkt.clouddn.com/dancing1.jpg' ></image>
+    <text>呃，不要误会，这不是我学的舞蹈类型，我我我没那么优雅的啦，哈哈······</text>
+    <text>好吧，好吧，下面这张才是啦，新疆维吾尔族舞蹈，我更加喜爱这样的民族舞蹈，充满了热情、豪放与稳重感。
+    </text>
+    <image src='http://pcq93ptij.bkt.clouddn.com/dancing11.jpg'></image>
+    <text>下面是一部分生活中的舞蹈照片：</text>
+  </view>
+   
+   <view class='content'>
+    <swiper class='swiper' indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" circular="{{circular}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="image"/>
+      </swiper-item>
+    </block>
+    </swiper>
+    <button bindtap="changeAutoplay" class='button'>暂停/播放</button>
+  </view> 
+  <view class="footer">
+    <import src="../public/public.wxml"/>
+    <template is="footer"/>
+  </view>
+</view>

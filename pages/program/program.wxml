@@ -1,0 +1,38 @@
+<!--pages/program/program.wxml-->
+<view class='container'>
+  <view class='title'>
+    <rich-text nodes="{{nodes}}">
+    </rich-text>
+  </view>
+  <view class='program1'>
+    <image src='http://pcq93ptij.bkt.clouddn.com/IT3.jpg'></image>
+    <text>永远不要只听别人说，而是自己去尝试。
+    只有尝试了才知道究竟好与不好、适合或不适合；如果我不去尝试着接触编程，我想我这辈子都不会知道原来我可以对它如此着迷；当然，喜欢总是有原因的：
+    
+     1.我喜欢编程时大脑的高速运转与清晰的逻辑思维
+    </text>
+    <image src='http://pcq93ptij.bkt.clouddn.com/IT6.jpg'></image>
+    <text>2.崇拜程序员，也想像他们一样将自己的想法用代码呈现出来</text>
+    <image src='http://pcq93ptij.bkt.clouddn.com/IT5.jpg'></image>
+    <text>3.学会了编程就可以为亲朋好友写出属于她们的网站</text>
+    <image src='http://pcq93ptij.bkt.clouddn.com/IT2.jpg'></image>
+    <text>4.为了能够更好的就业，毕竟IT行业具有很好的发展前景</text>
+    <image src='http://pcq93ptij.bkt.clouddn.com/IT7.jpg'></image>
+    <text>5.哎哟，其实还有很重要的一点当然就是因为IT行业薪酬高啦哈哈哈</text>
+    <image src='http://pcq93ptij.bkt.clouddn.com/IT8.jpg'></image>
+  </view>
+  <view class='program2'>
+    <text>清楚了我喜爱编程的原因，你一定还是会觉得我不是计算机专业，那么学习编程是不是就是在浑水摸鱼呢？
+    额，就像下面图片中一样~~~
+    </text>
+    <image src='http://pcq93ptij.bkt.clouddn.com/IT9.jpg' class='img'></image>
+    <image src='http://pcq93ptij.bkt.clouddn.com/IT10.jpg'></image>
+    <text>NO,并非你所想，事实上正因为不是计算机专业，所以才更加努力的去学习、去弥补自己的不足</text>
+    <text>无论我选择了哪个专业，它并不代表我的所有学业生涯；我也想趁着青春里的满腔热血还没有被消磨殆尽时再去选择一次，不管我最后从事了哪个行业，至少我明白我的爱好并非为了选择而选择，而我的选择的确是为了我的爱好而选择。</text>
+    <text>最后我想说：“路在我们的脚下，不在远方，选择了编程，就选择了不断学习与进步。”</text>
+  </view>
+  <view class="footer">
+    <import src="../public/public.wxml"/>
+    <template is="footer"/>
+  </view>
+</view>

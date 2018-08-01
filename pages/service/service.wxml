@@ -1,0 +1,12 @@
+<!--pages/service/service.wxml-->
+<view style='position:relative;margin-top:30rpx;'>联系客服 
+<image src='../../static/icon/right.png' style='width:120rpx;height:80rpx;margin-top:50rpx'></image>
+       <contact-button type="default-light" size="20" session-from="weapp" style='left:0;opcity=0'></contact-button>
+        <contact-button type="default-light" size="20" session-from="weapp" style='left:40rpx;opcity=0'></contact-button>
+        <contact-button type="default-light" size="20" session-from="weapp" style='left:80rpx;opcity=0'></contact-button>
+        <contact-button type="default-light" size="20" session-from="weapp" style='left:120rpx;opcity=0'></contact-button>
+        <contact-button type="default-light" size="20" session-from="weapp" style='left:160rpx;opcity=0'></contact-button>
+        <contact-button type="default-light" size="20" session-from="weapp" style='left:200rpx;opcity=0'></contact-button>
+        <contact-button type="default-light" size="20" session-from="weapp" style='left:240rpx;opcity=0' ></contact-button> 
+</view>
+

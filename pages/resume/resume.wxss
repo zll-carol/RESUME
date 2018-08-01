@@ -1,0 +1,77 @@
+/**index.wxss**/
+page{
+   height: 100%; 
+}
+.container{
+  width: 100%;
+  height:3000rpx;
+  background-color: #0f1010;
+  color:#9ea3aa;
+}
+.resume{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.resume .title{
+  color: white;
+  text-align: center;
+}
+.resume .h2{
+  font-weight: 300; 
+}
+.resume .p{
+  font-weight: 300; 
+  font-size: 16px;
+}
+.resume .radar{
+   height:320px; 
+}
+.infor{
+  font-size: 14px;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+  z-index: 999;    
+  /* margin-top: 50rpx; */
+}
+
+.infor text{
+   width: 36%; 
+   padding: 10rpx;
+}
+.infor .politics{
+  width: 100%;
+}
+.infor .profession{
+  width: 100%;
+}
+.infor .email{
+  width: 100%;
+}
+.img{
+  height: 0;
+  width:0;
+}
+.img image{
+  display: block;
+  z-index: -10;   
+  margin-left:-270rpx;
+}
+.ability{
+  color: #c9c4cb;  
+  display: flex;
+  width: 100%;
+  flex-direction: column; 
+  margin-bottom: -50rpx;
+}
+.ability text{
+  margin-bottom: 20rpx;
+}
+
+.public image{
+  width: 200rpx;
+  /* display: flex; */
+  align-items: center;
+  margin-top:100rpx;
+}

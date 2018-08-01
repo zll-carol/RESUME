@@ -1,0 +1,39 @@
+<!--pages/photo/photo.wxml-->
+<!--pages/travel/travel.wxml-->
+<view class='container'>
+  <view class='title'>
+    <rich-text nodes="{{nodes}}">
+    </rich-text>
+  </view>
+  <view class='photo'>
+    <swiper class='swiper' indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" circular="{{circular}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="image"/>
+      </swiper-item>
+    </block>
+    </swiper>
+    <button bindtap="changeAutoplay" class='button'>暂停/播放</button>
+  </view>
+  <view class='content'>
+    <text>喜欢的事物太多想留住的也不少</text>
+    <text>我发现大部分的摄影与旅行都是紧密相连的，在旅行的途中有说不尽的风光旖旎和湖光山色，自然而然的就想要将它们拍下来，也正因为喜爱摄影而促使我们想要去更多的地方采撷不一样的风景。
+    
+    是的，这就是我生活中的一部分，喜欢摄影：
+    </text>
+    <image src="http://pcq93ptij.bkt.clouddn.com/photo4.jpg"></image>
+    <image src="http://pcq93ptij.bkt.clouddn.com/photo5.jpg" class='img'></image>    
+    <text>当然，除了喜欢拍照，也喜欢被拍：</text>
+    <image src="http://pcq93ptij.bkt.clouddn.com/photo3.jpg"></image> 
+    <image src="http://pcq93ptij.bkt.clouddn.com/photo8.jpg" class='img'></image>      
+    <text>然而，除了被拍，更喜欢自拍哈哈哈哈：</text>
+    <image src="http://pcq93ptij.bkt.clouddn.com/photo2.jpg"></image>  
+    <image src="http://pcq93ptij.bkt.clouddn.com/photo7.jpg" mode='widthFix' class='img'></image>  
+    <text>嗯哼，这真的是自拍，一般自拍的人都不会让别人看出ta在自拍哈哈哈哈</text>      
+  </view>
+  <view class="footer">
+    <import src="../public/public.wxml"/>
+    <template is="footer"/>
+  </view>
+</view>

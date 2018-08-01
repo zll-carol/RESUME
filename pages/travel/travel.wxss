@@ -1,0 +1,45 @@
+/* pages/travel/travel.wxss */
+.title .h3{
+  color:#b5a081;
+  text-shadow:10px 12px 10px #ccc9c2;
+}
+.title{
+  color:#8cabc8;
+  font-weight: 600;
+}
+.title .p1{
+  margin:40rpx 0;
+}
+.title .p2{
+  font-size: 16px;
+  margin-bottom: 50rpx; 
+}
+.travel{
+  display: flex;
+  flex-direction: column;
+  text-align: center;  
+}
+.travel image{
+  height: 260px;
+}
+.travel .swiper{
+  width: 700rpx;
+  height: 580rpx;
+}
+.travel .button{
+  width:200rpx;
+  height:60rpx;
+  text-align: center;
+  line-height: 60rpx;
+  font-size: 16px;
+  color:#306089;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100rpx;
+}
+.content text{
+  margin-top: 50rpx;
+}

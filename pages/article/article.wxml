@@ -1,0 +1,34 @@
+<!--pages/article/article.wxml-->
+<view class='container'>
+  <view class='title'>
+    <rich-text nodes="{{nodes}}">
+    </rich-text>
+  </view>
+  <view class='content'>
+    <image src='http://pcq93ptij.bkt.clouddn.com/article2.jpg'></image>
+    <text>唉，我不是李白，写不出浪漫主义文学，也咏不出“连峰去天不盈尺，枯松倒挂倚绝壁”的惊险。
+    
+    噢，我也不是治愈大师，写不出好喝可口的鸡汤文，我只是不忍心某一刻突发的灵感就这么白白消逝，所以写了些可能并没营养还逻辑思维混乱且枯燥的小说、散文。
+    </text>
+    <text>
+      那就一起来看看我的无聊与毫无水准可言的短篇小说吧！哈哈哈、、、、、、
+      是一部关于青春校园的短篇小说，发布在了17K小说网，书名是《再度孤行沧桑了谁的容颜》；开始写的时候是在高二，高考结束后也就没有继续再往下写了，也许是过了那个容易触景生情的年纪！所以至今还在连载中，真不好意思拿出来献丑，但怎么说也算是青春里的一部分吧。
+
+      下面是第十七章尾部的一部分：
+    </text>
+    <text style='color:#8e5da3;margin-top:-10rpx'>
+      “余音袅袅之中，宛晴以同样深情的目光凝视着他，她心底有说不尽的感伤，一向雪亮的双眼彼时正噙着泪水。
+   纪子熙看着真是痛恨自己刚刚随口说出的随意两字啊，所有的风头顷刻被林熠森给抢光了，最重要的还是宛晴的目光也被他给深深吸引住，纪子熙再一次露出那无奈又可爱的表情默默地看着他俩的爱情一点一点升温。
+   毕业后的第一次聚会，大家都玩得非常尽兴，约定好假期再聚，最后同学们分别道别，各自回家。
+   时光匆匆，那些把酒言欢的日子，那些促膝长谈的往事，都一并逝去，留下冗长记忆酝酿成酒细细品味，也幻化成风轻轻吹拂，来年再聚又是一场别离，今夕何夕，你我同在即是情谊。”
+    </text>
+    <text style='margin-top:80rpx;'>当然，如果你不介意我献丑，这儿还有进入该小说的链接：</text>
+    <text style='color:#d71e7a'> http://www.17k.com/list/1679252.html</text>
+    <text>欢迎评论指点，也很乐意接受吐槽批评，毕竟说明它还有点存在的价值哈哈哈哈哈</text>
+    <image src='http://pcq93ptij.bkt.clouddn.com/article4.jpg'></image>
+  </view>
+  <view class="footer">
+    <import src="../public/public.wxml"/>
+    <template is="footer"/>
+  </view>
+</view>

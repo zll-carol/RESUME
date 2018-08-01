@@ -1,0 +1,156 @@
+/* pages/favorite/favorite.wxss */
+.container{
+  padding: 30rpx; 
+  color:#4b6162;
+  width: 100%;
+  overflow: hidden;
+}
+.favorite .h2{
+  color:#935fa2;
+  text-shadow:10px 12px 10px #a8d9e0;
+}
+.favorite .p1{
+  color:#ae8dcf;
+  display:block;
+  margin-top:30rpx;
+  margin-left: -10%;
+  font-weight: 600;
+}
+.favorite .p2{
+  color:#ae8dcf;
+  display:block;
+  margin-top:30rpx;
+  margin-left: -10%;
+  font-weight: 600;  
+}
+.favorite .p3{
+  color:#3f2f48;
+  display:block;
+  margin-top:30rpx;
+  margin-left: -10%;
+  font-size: 15px;  
+  margin-bottom:60rpx; 
+}
+.content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  font-size: 16px; 
+}
+
+.content .program text:first-child{
+  color:#15a1aa;
+  font-weight: 600; 
+  font-size: 22px;
+  display: block;
+  margin-bottom: 30rpx;
+}
+.content .program image{
+  overflow: visible;
+  width:100%;
+} 
+.content .program text:last-child{
+  display: block; 
+  width:100%; 
+  margin-left: 60%;
+  margin-bottom: 60rpx;
+}
+
+.content .travel text:first-child{
+  color:#15a1aa;
+  font-weight: 600; 
+  font-size: 22px;
+  display: block;
+  margin-bottom: 30rpx;
+}
+.content .travel image{
+  overflow: visible;
+  width:100%;
+} 
+.content .travel text:last-child{
+  display: block; 
+  width:100%; 
+  margin-left: 60%;
+  margin-bottom: 40rpx;
+}
+
+.content .dancing{
+  margin-top: 40rpx;
+}
+.content .dancing text:first-child{
+  color:#15a1aa;
+  font-weight: 600; 
+  font-size: 22px;
+  display: block;
+  margin-bottom: 30rpx;
+}
+.content .dancing image{
+  overflow: visible;
+  width:100%;
+} 
+.content .dancing text:last-child{
+  display: block; 
+  width:100%; 
+  margin-top:20rpx; 
+  margin-bottom: 40rpx;
+}
+
+.content .photo{
+  margin-top: 40rpx;
+}
+.content .photo text:first-child{
+  color:#15a1aa;
+  font-weight: 600; 
+  font-size: 22px;
+  display: block;
+  margin-bottom: 30rpx; 
+}
+.content .photo image{
+  overflow: visible;
+  margin-bottom: 20rpx;
+  width:100%;
+} 
+.content .photo text:last-child{
+  display: block; 
+  width:100%; 
+  margin-left: 68%;
+  margin-bottom: 60rpx;
+}
+
+.content .article text:first-child{
+  color:#15a1aa;
+  font-weight: 600; 
+  font-size: 22px;
+  display: block;
+}
+.content .article image{
+  overflow: visible;
+  width: 100%;
+} 
+.content .article text:last-child{
+  display: block; 
+  width:100%; 
+  margin-left: 53%;
+  margin-bottom: 80rpx;
+}
+
+.content .dog text:first-child{
+  color:#15a1aa;
+  font-weight: 600; 
+  font-size: 22px;
+  display: block;
+  margin-bottom: 30rpx;
+}
+.content .dog image{
+  overflow: visible;
+  width: 100%;
+} 
+.content .dog text:last-child{
+  display: block; 
+  width:100%; 
+  margin-left: 65%;
+  margin-top:20rpx; 
+}
+
+

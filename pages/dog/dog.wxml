@@ -1,0 +1,23 @@
+<!--pages/dog/dog.wxml-->
+<view class='container'>
+  <view class='title'>
+    <rich-text nodes="{{nodes}}">
+    </rich-text>
+  </view>
+  <view class='content'>
+    <text>竟然选择喂养毛孩子，那么无论如何都要负责到底，不能随意丢弃，因为它们除了主人就一无所有了</text>
+    <image src='http://pcq93ptij.bkt.clouddn.com/dog2.jpg'></image> 
+    <text>“嗨，大家好！我叫六六，六六大顺的六哟，我主人说以后如果我有弟弟就叫大顺，你们说是不是很般配呢，哈哈，看，下面这张呆萌呆萌的照片就是我不到两个月的时候，那时候我的小鼻子还很黑呢，额，我是不会告诉你们我的鼻子现在变得有些粉粉了，医生说那是遗传基因，但我还是比较喜欢黑色的鼻子，虽然我现在依旧很帅，嘿嘿”</text>  
+    <image src='http://pcq93ptij.bkt.clouddn.com/dog3.jpg'></image>
+    <text>“嗷~这是我将近一岁时的照片，偷偷告诉你们哟，我不仅仅会击掌还会握手呢，啦啦啦啦啦啦啦······我还是卖萌小能手哟，只要谁夸我乖说我可爱帅气，我就会扁着大耳朵跑到谁的身边去摇头晃脑讨人喜爱，谁让我是靠脸吃饭的呢”</text>
+    <image src='http://pcq93ptij.bkt.clouddn.com/dog4.jpg' mode='widthFix'></image> 
+    <text>“这是我一岁多时的照片，是不是感觉有些胖呢！唉，我主人给我定的目标是五十斤，也不知道她咋想的，那也许我会变成一头汪汪叫的猪吧，不过我主人对我的照顾真的是无微不至的，每一次出去玩，主人都会给我准备水杯，因为她说外边的水不干净不让我乱喝，她希望我身体健康，我也渴望能陪她走很长很长的一段路”</text>
+    <image src='http://pcq93ptij.bkt.clouddn.com/dog5.jpg'></image>
+    <text>“啦啦啦啦啦啦······这是我快一岁半的时候，照片上那条狗狗是不是和我长得很像呀，哈哈，不过那不是我是主人的好盆友送给我的一张照片，她觉得我们都一样可爱，好像大家都很喜欢我呢！噢，主人正在敲代码，嘘，我不能再说话打扰她了，拜拜”</text>
+    <image src='http://pcq93ptij.bkt.clouddn.com/dog6.jpg'></image>   
+  </view>
+  <view class="footer">
+    <import src="../public/public.wxml"/>
+    <template is="footer"/>
+  </view>
+</view>

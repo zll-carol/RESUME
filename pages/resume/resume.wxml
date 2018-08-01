@@ -1,0 +1,56 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='resume'>
+    <rich-text nodes="{{nodes}}" class='title' >
+    </rich-text>
+    <canvas canvas-id='radarCanvas' class='radar'></canvas> 
+  </view>
+  <view class='infor'>
+      <text class="name">姓名：{{name}}</text>  
+      <text class="nation">民族：{{nation}}</text>   
+      <text class="height">身高：{{height}}</text>    
+      <text class="sex">性别：{{sex}}</text>
+      <text class="education">学历：{{education}}</text>        
+      <text class="date">出生年月：{{date}}</text>      
+      <text class="politics">政治面貌：{{politics}}</text>
+      <text class="profession">专业：{{profession}}</text>
+      <text class="email">E-Mail：{{email}}</text>   
+  </view>
+  <view class='img'>
+      <image src="http://pcq93ptij.bkt.clouddn.com/background1.jpg"></image>
+  </view>
+  <view class='ability'>
+      <text>掌握的技能：</text>
+      <text>
+        HTML:
+      </text>
+      <progress percent="75" active show-info stroke-width="14" activeColor='#df4b1d' />
+      <text>
+        CSS:
+      </text>
+      <progress percent="80" active show-info stroke-width="14" activeColor='#df4b1d' />
+      <text>
+        JS:
+      </text>
+      <progress percent="50" active show-info stroke-width="14" activeColor='#df4b1d' />
+      <text>
+        React:
+      </text>
+      <progress percent="50" active show-info stroke-width="14" activeColor='#df4b1d' />
+      <text>
+        MongoDB: 
+      </text>
+      <progress percent="55" active show-info  stroke-width="14" activeColor='#df4b1d' />
+      <text>
+        Node.js:
+      </text>
+      <progress percent="50"  active show-info  stroke-width="14" activeColor='#df4b1d' />
+      <text>
+        微信小程序: 
+      </text>
+      <progress percent="60" active show-info   stroke-width="14" activeColor='#df4b1d' />
+  </view>  
+  <view class="public" style='width:750rpx heigth:200rpx backgound:#8a8a8a'>
+    <image src="http://p19i5tep0.bkt.clouddn.com/logo.png" mode='widthFix'></image>
+  </view>
+</view>

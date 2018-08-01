@@ -1,0 +1,6 @@
+<!--pages/public/public.wxml-->
+<template name="footer" >
+  <view class="public" style='width:750rpx heigth:300rpx backgound:#8a8a8a'>
+    <image src="http://p19i5tep0.bkt.clouddn.com/logo1.png" mode='widthFix'></image>
+  </view>
+</template>

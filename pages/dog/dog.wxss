@@ -1,0 +1,30 @@
+/* pages/dog/dog.wxss */
+.title .h3{
+  color:#e5b44b;
+  text-shadow:10px 12px 10px #f0d394;
+  text-align: center;
+}
+.title{
+  color:#877c65;
+  font-weight: 600;
+}
+.title .p1{
+  margin:40rpx 0;
+}
+.title .p2{
+  font-size: 16px;
+  margin-bottom: 50rpx; 
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content image{
+  margin-top: 15rpx;
+  margin-bottom: 100rpx;
+} 
+.content text{
+  align-self: flex-start; 
+  margin-top: 30rpx;
+} 

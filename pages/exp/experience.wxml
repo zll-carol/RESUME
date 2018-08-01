@@ -1,0 +1,63 @@
+<!--pages/exp/experience.wxml-->
+<view class='container'>
+  <view class='title'>
+    <rich-text nodes="{{nodes}}">
+    </rich-text>
+  </view>
+  <view class='content'>
+    <text>那么对于刚离开学校这座象牙塔的我都有哪些经验呢？</text>
+    <image class='image1' src='http://pcq93ptij.bkt.clouddn.com/exp.png'></image>
+    <text class='text1'>如果说必须要是全职且工作在一年或一年以上的才算是有工作经验的话，那么对于刚毕业的我来说的的确确是没有工作经验的，但不可否认的是我的学业生涯中也并不都是学习、学习、学习，除了学习之外，还做了多种多样的兼职，例如：</text>
+    <text>一、西餐厅服务员
+      2009年初中毕业的暑假，在海口正点西餐厅做暑假工，具体职位是服务员，大约做了一个月后辞职。（额，好吧，当时还没有那么自恋所以也没拍有照片，那就放张卡通图片意思意思吧！）
+    </text>
+    <image src='http://pcq93ptij.bkt.clouddn.com/work1.jpg'></image>
+    <text>二、发单人员
+      2014年大一期间，在市区里做兼职，负责穿古装发放宣传页。
+    </text>
+    <image src='http://pcq93ptij.bkt.clouddn.com/work2.jpg'mode='widthFix'></image>
+    <text>三、三剑客牛奶促销员
+      2015年大二期间，在家属院门口做兼职，负责三剑客牛奶的促销。
+    </text>
+    <image src='http://pcq93ptij.bkt.clouddn.com/work3.jpg' mode='widthFix' ></image>
+    <text>四、入户统计人员
+      2015年大二期间，在统计局做兼职，负责入户调查、填写统计数据
+    </text>
+    <image src='http://pcq93ptij.bkt.clouddn.com/work4.jpg'  mode='widthFix'></image>
+    <text>五、客房部服务员
+      2016年寒假期间，在海南省万宁市石梅湾艾美度假酒店做寒假工，负责客房部的服务卫生
+    </text>
+    <image src='http://pcq93ptij.bkt.clouddn.com/work5.jpg' mode='widthFix'></image>
+    <text>六、导游
+      2016年3月到5月，在许昌市光大旅行社做兼 职导游，负责全程陪同以及景区讲解
+    </text>
+    <image src='http://pcq93ptij.bkt.clouddn.com/work6.JPG' mode='scaleToFill' style='height:800rpx'></image>
+    <text>七、家教英语老师
+      2016年9月到2017年8月，在许昌市帝豪花园做家教老师，负责辅导孩子英语、语文与数学
+    </text>
+    <image src='http://pcq93ptij.bkt.clouddn.com/work7.jpg' mode='widthFix' ></image>
+    <text>八、anokhi服装模特
+      2017年国庆节期间，在许昌市anokhi品牌女装店做兼职模特，负责试衣走秀
+    </text>
+    <image src='http://pcq93ptij.bkt.clouddn.com/work8.JPG' mode='widthFix'></image>
+    <text>九、会计
+      2017年7月到11月，在许昌众城前景咨询策划有限公司实习，担任会计，负责会计相关工作。（唉！一定是当时像打了鸡血一样忙着工作忘了拍照了，那好吧，就将就着看看这可爱的卡通图片吧）
+    </text>
+    <image src='http://pcq93ptij.bkt.clouddn.com/work10.jpg'></image>
+  </view>
+  <view class='exp'>
+    <text>上面的每一份工作都带给了我不一样的体验与收获，从自己决定要走出校园到选择自己能够胜任的职位再到约时间地点面试以及工作的整个过程，每一步每一点都是在进步；无论这些算不算得上是工作的经验，但对于我而言都是实实在在的社会经验，我喜欢这样的生活方式也渴望今后的每一天都过得充实。</text>
+    <image src='http://pcq93ptij.bkt.clouddn.com/exp3.jpg' style='margin-bottom:200rpx'></image>
+    <text>下面就是小女纸的联系方式啦：
+      QQ：1051100420
+      邮箱：1051100420@qq.com
+      手机号码:13876237047       
+    </text>
+    <text class='right'>|</text>
+    <image src='http://pcq93ptij.bkt.clouddn.com/phone.png' bindtap="makePhoneCall"></image>
+  </view>
+  <view class="footer">
+    <import src="../public/public.wxml"/>
+    <template is="footer"/>
+  </view>
+</view>

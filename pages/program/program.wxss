@@ -1,0 +1,42 @@
+/* pages/program/program.wxss */
+.title .h3{
+  color:#b5a081;
+  text-shadow:10px 12px 10px #ccc9c2;
+  text-align: center; 
+}
+.title .p1{
+  color:#8cabc8;
+  margin-top:30rpx;
+  font-weight: 600;
+}
+.title .p2{
+  color:#8cabc8;
+  margin-top:30rpx;
+  font-size: 16px;
+  font-weight: 600;  
+  margin-bottom: 50rpx; 
+}
+.program1{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+.program1 text{
+  align-self: flex-start; 
+  margin-top: 30rpx;
+}
+.program2{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+.program2 .img{
+  width: 750rpx;
+}
+.program2 image{
+  display: block;
+  margin:30rpx 0;
+}
+.program2 text{
+  padding:30rpx 30rpx;
+}

@@ -1,0 +1,27 @@
+<!--pages/travel/travel.wxml-->
+<view class='container'>
+  <view class='title'>
+    <rich-text nodes="{{nodes}}">
+    </rich-text>
+  </view>
+  <view class='travel'>
+    <swiper class='swiper' indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" circular="{{circular}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="image" mode='aspectFill'/>
+      </swiper-item>
+    </block>
+    </swiper>
+    <button bindtap="changeAutoplay" class='button'>暂停/播放</button>
+  </view>
+  <view class='content'>
+    <image src='http://pcq93ptij.bkt.clouddn.com/travel2.jpg' mode='widthFix'></image>
+   
+    <text>如果可以敲着代码一路前行，走遍大江南北，踏过高山雪地，欣赏各国美景，历尽世间繁华，那么这一生恐怕没什么遗憾了吧！哈哈，这是向往，也是梦想，万一走着走着就实现了呢！</text>
+  </view>
+  <view class="footer">
+    <import src="../public/public.wxml"/>
+    <template is="footer"/>
+  </view>
+</view>

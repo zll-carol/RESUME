@@ -1,0 +1,57 @@
+/* pages/exp/experience.wxss */
+.title .h3{
+  color:#b9d84c;
+  text-shadow:10px 12px 10px #dae0ba;
+  text-align: center;
+}
+.title{
+  color:#cd7d1a;
+  font-weight: 600;
+}
+.title .p1{
+  margin:40rpx 0;
+}
+.title .p2{
+  font-size: 16px;
+  margin-bottom: 50rpx; 
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content text{
+  margin-bottom: 30rpx;
+  align-self: flex-start;
+}
+.content image{
+  margin-bottom: 200rpx;
+}
+.content .image1{
+  margin-top: -25rpx;
+}
+.content .text1{
+  margin-top: -200rpx;
+}
+.exp{
+  display: flex;
+  flex-direction: column;
+  margin-top: 80rpx;
+}
+.exp image{
+  margin-bottom: 50rpx;
+}
+
+.exp .right{
+  align-self: flex-end;
+  margin-top: -47rpx;
+  z-index: 999;
+  margin-right: 48rpx; 
+  color: #578eaa;
+}
+.exp image:last-child{
+  width: 40rpx;
+  height:40rpx;
+  align-self: flex-end;
+  margin-top:-46rpx;
+}
