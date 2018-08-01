@@ -1,0 +1,56 @@
+{
+  "pages": [
+
+    "pages/resume/resume",
+    "pages/favorite/favorite",
+    "pages/exp/experience",
+    "pages/service/service",
+    "pages/program/program",
+    "pages/article/article",
+    "pages/travel/travel",
+    "pages/dog/dog",
+    "pages/photo/photo",
+    "pages/dancing/dancing",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "RESUME",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": "true",
+    "backgroundColor": "#dbdbdb"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/resume/resume",
+        "text": "个人简介",
+        "iconPath": "/static/icon/resume1.png",
+        "selectedIconPath": "/static/icon/resume2.png"
+      },
+      {
+        "pagePath": "pages/favorite/favorite",
+        "text": "兴趣爱好",
+        "iconPath": "/static/icon/favorite1.png",
+        "selectedIconPath": "/static/icon/favorite2.png"
+      },
+      {
+        "pagePath": "pages/exp/experience",
+        "text": "社会经验",
+        "iconPath": "/static/icon/exp1.png",
+        "selectedIconPath": "/static/icon/exp2.png"
+      },
+      {  
+        "pagePath": "pages/service/service",
+        "text": "更多了解",
+        "iconPath": "/static/icon/service1.png",
+        "selectedIconPath": "/static/icon/service2.png"
+      }    
+    ],
+    "color": "#8a8a8a",
+    "selectedColor": "#2c2c2c",
+    "backgroundColor": "#dbdbdb",
+    "borderStyle": "white"
+  }
+}
