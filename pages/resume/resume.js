@@ -5,7 +5,7 @@ const Chart=require("../../utils/wxChart.js");
 
 //API:音乐组件控制    
 const audio = wx.createInnerAudioContext();
-audio.src = "http://p19i5tep0.bkt.clouddn.com/%E4%B9%B0%E8%BE%A3%E6%A4%92%E4%B9%9F%E7%94%A8%E5%88%B8%20-%20%E8%B5%B7%E9%A3%8E%E4%BA%86.mp3";
+audio.src = "http://pcq93ptij.bkt.clouddn.com/%E4%B9%B0%E8%BE%A3%E6%A4%92%E4%B9%9F%E7%94%A8%E5%88%B8%20-%20%E8%B5%B7%E9%A3%8E%E4%BA%86.mp3";
 audio.autoplay = true
 audio.loop = true
 

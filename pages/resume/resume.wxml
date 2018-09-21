@@ -32,7 +32,7 @@
       <text>
         JS:
       </text>
-      <progress percent="50" active show-info stroke-width="14" activeColor='#df4b1d' />
+      <progress percent="60" active show-info stroke-width="14" activeColor='#df4b1d' />
       <text>
         React:
       </text>
@@ -51,6 +51,6 @@
       <progress percent="60" active show-info   stroke-width="14" activeColor='#df4b1d' />
   </view>  
   <view class="public" style='width:750rpx heigth:200rpx backgound:#8a8a8a'>
-    <image src="http://p19i5tep0.bkt.clouddn.com/logo.png" mode='widthFix'></image>
+    <image src="http://pcq93ptij.bkt.clouddn.com/logo.png" mode='widthFix'></image>
   </view>
 </view>
